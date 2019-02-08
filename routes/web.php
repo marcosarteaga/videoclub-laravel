@@ -33,9 +33,9 @@ Route::get('/catalog/show/{id}', function () {
 });
 
 Route::get('/catalog/create', function () {
-    return view('Añadir película');
+    return view('catalog.create');
 });
 
 Route::get('/catalog/edit/{id}', function () {
-    return view('Modificar película {id}');
+    return view('catalog.edit{id}');
 });
